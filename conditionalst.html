@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS conditional statements practics  </title>
+</head>
+<body>
+    <h2>Hello wold</h2>
+    <div id="1"> </div>
+    <div id="2"></div>
+    <div id="3"></div>
+    <div id="4"></div>
+    <div id="5"></div>
+    <script>
+    let mode = 'dark';
+    let color;
+    if (mode === "dark"){
+        color="black";
+    }
+    if(mode === "light"){
+        color="Light";
+    }
+  document.getElementById("2").innerHTML=color;
+    </script>
+    <script>
+        let md = "white";
+        let clr;
+        if(md==="dark"){
+            color="black";
+        }
+        else {
+            color="white";
+        }
+        document.getElementById(1).innerHTML=color;
+
+    
+
+    </script>
+
+    <!-- check number is even or odd by console.log -->
+    <script>
+         let num= 10;
+         if(num%2==0){
+            console.log(num," is even");
+         } 
+         else { console.log(num, " is odd");}
+    </script>
+
+</body>
+</html>
